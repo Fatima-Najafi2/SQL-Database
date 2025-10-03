@@ -17,4 +17,4 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Build
-      run: dotnet build ./SQL Database/SQL Database.sqlproj
+      run: dotnet build "./SQL Database/SQL Database.sqlproj"
